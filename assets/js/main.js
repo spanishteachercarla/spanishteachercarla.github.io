@@ -15,9 +15,9 @@
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/carla/logo.png";
+      logo.src = "assets/images/carla/carlamainheader-tp.png";
     } else {
-      logo.src = "assets/images/carla/logo.png";
+      logo.src = "assets/images/carla/carlamainheader-tp.png";
     }
 
     // show or hide the back-top-top button

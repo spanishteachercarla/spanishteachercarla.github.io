@@ -17,6 +17,7 @@
   --heading-color: #212b36;
   --primary-color: #AED9E0;
   --white: #ffffff;
+  --black: #000002;
 }
 
 body {
@@ -878,6 +879,7 @@ p {
 .ud-pricing {
   padding-top: 120px;
   padding-bottom: 90px;
+  background: #ffebec;
 }
 
 @media (max-width: 767px) {
@@ -889,7 +891,7 @@ p {
 
 .ud-single-pricing {
   margin-bottom: 40px;
-  background: var(--white);
+  background: #ffebec;
   border: 2px solid #d4deff;
   border-radius: 8px;
   text-align: center;
@@ -898,19 +900,19 @@ p {
 }
 
 .ud-single-pricing.active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#3056d3), to(#179bee));
-  background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fee9e8), to(#f0a4a4));
+  background: linear-gradient(180deg, #fee9e8 0%, #f0a4a4 100%);
   border: none;
   padding: 55px 30px;
 }
 
 .ud-single-pricing.active .ud-pricing-header h3,
 .ud-single-pricing.active .ud-pricing-header h4 {
-  color: var(--white);
+  color: var(--black);
 }
 
 .ud-single-pricing.active .ud-pricing-body li {
-  color: var(--white);
+  color: var(--black);
 }
 
 .ud-single-pricing.first-item::after, .ud-single-pricing.last-item::after {
@@ -922,14 +924,14 @@ p {
 }
 
 .ud-single-pricing.first-item::after {
-  background: var(--primary-color);
+  background: #ea6463;
   left: -2px;
   bottom: -2px;
   border-radius: 0px 55px 0px 8px;
 }
 
 .ud-single-pricing.last-item::after {
-  background: #13c296;
+  background: #ea6463;
   top: -2px;
   right: -2px;
   border-radius: 0px 8px 0px 55px;
@@ -954,7 +956,7 @@ p {
 .ud-single-pricing .ud-pricing-header h4 {
   font-weight: 600;
   font-size: 26px;
-  color: var(--primary-color);
+  color: var(--black);
   margin-bottom: 40px;
 }
 
@@ -975,14 +977,14 @@ p {
 
 .ud-single-pricing .ud-border-btn {
   border: 1px solid #d4deff;
-  color: var(--primary-color);
-  background: var(--white);
+  color: var(--white);
+  background: #ea6463;
 }
 
 .ud-single-pricing .ud-border-btn:hover {
-  color: var(--white);
+  color: #ea6463;
   border-color: var(--primary-color);
-  background: var(--primary-color);
+  background: var(--white);
 }
 
 .ud-single-pricing .ud-white-btn {

@@ -12,7 +12,7 @@
 
 .ud-single-pricing {
   margin-bottom: 40px;
-  background: var(--white);
+  background: linear-gradient(180deg, #fee9e8 0%, #f0a4a4 100%);
   border: 2px solid #d4deff;
   border-radius: 8px;
   text-align: center;
@@ -20,19 +20,19 @@
   position: relative;
 
   &.active {
-    background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
+    background: linear-gradient(180deg, #fee9e8 0%, #f0a4a4 100%);
     border: none;
     padding: 55px 30px;
 
     .ud-pricing-header {
       h3,
       h4 {
-        color: var(--white);
+        color: var(--black);
       }
     }
     .ud-pricing-body {
       li {
-        color: var(--white);
+        color: var(--black);
       }
     }
   }
@@ -47,14 +47,14 @@
   }
 
   &.first-item::after {
-    background: var(--primary-color);
+    background: #ea6463;
     left: -2px;
     bottom: -2px;
     border-radius: 0px 55px 0px 8px;
   }
 
   &.last-item::after {
-    background: #13c296;
+    background: #ea6463;
     top: -2px;
     right: -2px;
     border-radius: 0px 8px 0px 55px;
@@ -65,7 +65,7 @@
     padding: 10px 25px;
     background: var(--white);
     border-radius: 30px;
-    color: var(--primary-color);
+    color: var(--black);
     margin-bottom: 20px;
     font-weight: 600;
   }
@@ -79,7 +79,7 @@
     h4 {
       font-weight: 600;
       font-size: 26px;
-      color: var(--primary-color);
+      color: var(--black);
       margin-bottom: 40px;
     }
   }
@@ -101,22 +101,22 @@
 
   .ud-border-btn {
     border: 1px solid #d4deff;
-    color: var(--primary-color);
-    background: var(--white);
+    color: var(--white);
+    background: #ea6463;
 
     &:hover {
-      color: var(--white);
-      border-color: var(--primary-color);
-      background: var(--primary-color);
+      color: #ea6463;
+      border-color: #d4deff;
+      background: var(--white);
     }
   }
   .ud-white-btn {
-    background: var(--white);
-    color: var(--heading-color);
+    background: #ea6463;
+    color: var(--white);
 
     &:hover {
-      color: var(--white);
-      background: var(--heading-color);
+      color: #ea6463;
+      background: var(--white);
     }
   }
 }
